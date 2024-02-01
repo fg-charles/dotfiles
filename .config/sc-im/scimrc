@@ -1,0 +1,8 @@
+nnoremap "H" ":h<cr>"
+nnoremap "<space>t" "\\"@lua(\"now.lua\", 1) <cr>:format \"d%d/%m/%y %H:%M\"<cr>"
+
+color "type=HEADINGS fg=WHITE bg=DEFAULT_COLOR"
+color "type=HEADINGS_ODD fg=WHITE bg=DEFAULT_COLOR"
+color "type=CELL_SELECTION fg=CYAN bg=DEFAULT_COLOR"
+color "type=CELL_SELECTION_SC fg=BLACK bg=CYAN"
+color "type=CELL_FORMAT fg=WHITE bg=DEFAULT_COLOR"
