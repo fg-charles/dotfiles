@@ -1,10 +1,11 @@
 [credential "https://github.com"]
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [user]
 	email = 107529830+fg-charles@users.noreply.github.com
 	name = charles f
 [ini]
 	defaultBranch = main
+[push]
+	autoSetupRemote = true
